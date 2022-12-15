@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+}
+
+
+
+/* Inicio */
+
+body {
+    background: rgb(44, 39, 39);
+    
+}
+
+.fotoinicio {
+    margin: 0;
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    object-position: 0px -140px;
+    
+
+}
+
+
+.fotoinicio:hover {
+    margin: 0;
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    object-position: 0px -140px;
+    box-shadow: 0px 3px 7px 7px rgba(255, 0, 0, .5);
+    transition: .5s;
+}
+
+.tituloHome {
+    font-size: 100px;
+    color: red;
+    border: 3px solid gray;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px; 
+    position: relative;
+}
+
+
+.tituloHome:hover {
+    font-size: 100px;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    color: red;
+    transition: 1s;
+    transform: translate(0px, 3px);
+    border-color: black;
+}
+
+
+.barraInicio {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    transition: width 5s;
+}
+
+
+.barraInicio__botones:hover {
+    
+    background-color: black;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    transition: 1s;
+    transform: translate(0px, 3px);
+    border-color: gray;
+    background-color: black;
+}
+
+
+li {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: gray;
+    color: red
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.axlrose  {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    object-fit: cover;
+    border: 5px groove beige;
+    border-radius: 5px;
+}
+
+.axlrose:hover  {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    object-fit: cover;
+    border: 5px groove beige;
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px 7px rgba(255, 0, 0, .5);
+    transition: .5s;
+}
+
+.appetiteForDestructionLogo {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 25px;
+    object-fit: cover;
+}
+
+
+.appetiteForDestructionLogo__imagen {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 25px;
+    object-fit: cover;
+    border: 5px groove beige;
+    border-radius: 5px;
+}
+
+.appetiteForDestructionLogo__imagen:hover {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 25px;
+    object-fit: cover;
+    border: 5px groove beige;
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px 7px rgba(255, 0, 0, .5);
+    transition: .5s;
+}
+
+.slash {
+    width: 200px;
+    height: 200px;
+    float: right;
+    object-fit: cover;
+    margin-right: 100px;
+    margin-top: 100px;
+    border: 5px groove beige;
+    border-radius: 5px;
+}
+
+.slash:hover {
+    width: 200px;
+    height: 200px;
+    float: right;
+    object-fit: cover;
+    margin-right: 100px;
+    margin-top: 100px;
+    border: 5px groove beige;
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px 7px rgba(255, 0, 0, .5);
+    transition: .5s;
+}
+    
+
+.footerpie {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: black;
+    width: 90%;
+    color: red;
+}
+
+.footerpie:hover {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: black;
+    width: 90%;
+    color: red;
+    box-shadow: 0px 3px 7px 7px rgba(255, 0, 0, .5);
+    transition: .5s;
+}
+
+
+
+/* Historia */
+
+.tituloBiografia {
+    letter-spacing: 5px; 
+    color: red;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.historia {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    column-count: 2;
+    column-gap: 130px;
+    column-width: 500px;
+    column-rule: 1px solid red;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+/* Integrantes */
+
+.integrantes {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.lineaDeTiempo {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -120px;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px black;
+    color: red;
+}
+
+.lineadeTiempo__Foto {
+    margin-top: -120px;
+    width: 800px;
+    height: 800px;
+    object-fit:scale-down;
+}
+
+.lineaDeTiempo__parrafos {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    column-count: 2;
+    column-gap: 130px;
+    column-width: 500px;
+    column-rule: 1px solid red;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+
+}
+
+.miembros {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Multimedia */
+
+.bandasTributo {
+    margin-top: 100px;
+}
+
+.bandasTributo__Titulo {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    background-color: black;
+    margin: auto;
+    width: 320px;
+    border-radius: 5px;
+}
+
+.bandasTributo__video1 {
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-decoration: underline black;
+}
+
+.bandasTributo__video2 {
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-decoration: underline black;
+}
+
+.bandasTributo__video3 {
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-decoration: underline black;
+}
+
+.bandasTributo__video4 {
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-decoration: underline black;
+}
+
+/* Novedades */
+
+.tituloConciertos {
+    
+color: white;
+text-align: center;
+   
+}
+
+.tituloConciertos__fechas {
+    list-style: none;
+    color: white;
+    
+}
+
+.tituloConciertos__fechas-precio {
+    justify-content: end;
+   display: inline-block;
+}
+
