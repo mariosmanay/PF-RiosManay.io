@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 
@@ -8,7 +9,11 @@
 
 body {
     background: rgb(44, 39, 39);
-    
+
+}
+
+#carousel {
+    display: none;
 }
 
 .fotoinicio {
@@ -17,7 +22,7 @@ body {
     height: 45vh;
     object-fit: cover;
     object-position: 0px -140px;
-    
+
 
 }
 
@@ -43,8 +48,11 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 5px; 
-    position: relative;
+    letter-spacing: 5px;
+  
+
+    
+   
 }
 
 
@@ -82,7 +90,7 @@ body {
 
 
 .barraInicio__botones:hover {
-    
+
     background-color: black;
     list-style: none;
     display: flex;
@@ -111,7 +119,7 @@ a {
     text-decoration: none;
 }
 
-.axlrose  {
+.axlrose {
     width: 200px;
     height: 200px;
     float: left;
@@ -122,7 +130,7 @@ a {
     border-radius: 5px;
 }
 
-.axlrose:hover  {
+.axlrose:hover {
     width: 200px;
     height: 200px;
     float: left;
@@ -189,7 +197,7 @@ a {
     box-shadow: 0px 3px 7px 7px rgba(255, 0, 0, .5);
     transition: .5s;
 }
-    
+
 
 .footerpie {
     font-size: 30px;
@@ -205,6 +213,7 @@ a {
     background-color: black;
     width: 90%;
     color: red;
+    position:
 }
 
 .footerpie:hover {
@@ -225,18 +234,21 @@ a {
     transition: .5s;
 }
 
+#navegador {
+    display: none;
+}
 
 
 /* Historia */
 
 .tituloBiografia {
-    letter-spacing: 5px; 
+    letter-spacing: 5px;
     color: red;
     text-align: center;
     align-items: center;
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+
 }
 
 .historia {
@@ -283,7 +295,7 @@ a {
     margin-top: -120px;
     width: 800px;
     height: 800px;
-    object-fit:scale-down;
+    object-fit: scale-down;
 }
 
 .lineaDeTiempo__parrafos {
@@ -369,20 +381,116 @@ a {
 /* Novedades */
 
 .tituloConciertos {
-    
-color: white;
-text-align: center;
-   
+
+    color: white;
+    text-align: center;
+
 }
 
 .tituloConciertos__fechas {
     list-style: none;
     color: white;
-    
+
 }
 
 .tituloConciertos__fechas-precio {
     justify-content: end;
-   display: inline-block;
+    display: inline-block;
 }
 
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1060px) {
+    .navegador-carousel {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .fotos-historia {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-items:center;
+        align-items: center;
+        place-items: center;
+    
+    }
+
+    .axlrose {
+        margin: auto;
+    }
+
+    .slash {
+        margin: 80px;
+    }
+
+    #carousel {
+        display: inline-block;
+        height: 30vh;
+        width: 400px;
+        margin: 100px 35px;
+        position: absolute;
+      
+    }
+
+    .fotos-historia {
+        display: none;
+    }
+
+    #navegador {
+        display: inline-block;
+        margin: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2rem;
+    }
+
+    .nav-item {
+        margin: 20px;
+        border: 3px solid black;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: gray;
+        color: red;
+        text-align: center;
+        
+    }
+
+    .nav-item:hover {
+        background-color: black;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+        transition: 1s;
+        transform: translate(0px, 3px);
+        border-color: gray;
+        background-color: black;
+    }
+
+    .footerpie {
+        margin-top: 200px;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: black;
+        width: 90%;
+        color: red;
+        
+    }
+
+    nav {
+        display: none;
+    }
+
+    .biografia {
+        display: inline-block;
+      
+    }
+}

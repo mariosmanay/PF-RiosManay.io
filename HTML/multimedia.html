@@ -1,4 +1,5 @@
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,13 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="icon" href="../Fotos/guns-n-roses-inicio.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <img class="fotoinicio" src="../Fotos/guns-n-roses-inicio.jpg" alt="foto-inicio">
     <header>
@@ -24,28 +31,69 @@
         </nav>
     </header>
 
+    <ul class="nav flex-column" id="navegador">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../HTML/historia.html">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../HTML/novedades.html">Novedades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../HTML/multimedia.html">Bandas Tributo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../HTML/integrantes.html">Integrantes</a>
+        </li>
+      </ul>
+
     <section>
         <div class="bandasTributo">
             <h2 class="bandasTributo__Titulo">Banda Red Guns</h2><br><br>
-            <div class="bandasTributo__video1"><p>Knockin' On Heaven's Door</p><br><iframe class="video1" width="524" height="315" src="https://www.youtube.com/embed/4eVpXGjKXl4" title="RED GUNS - KNOCKIN ON HEAVENS DOOR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="bandasTributo__video2"><p>Since I Don't Have You</p><br><iframe class="video2" width="524" height="315" src="https://www.youtube.com/embed/0bMM7QF5sug" title="Yo Soy Axl Rose - "SINCE I DON'T HAVE YOU"" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="bandasTributo__video1">
+                <p>Knockin' On Heaven's Door</p><br><iframe class="video1" width="524" height="315"
+                    src="https://www.youtube.com/embed/4eVpXGjKXl4" title="RED GUNS - KNOCKIN ON HEAVENS DOOR"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="bandasTributo__video2">
+                <p>Since I Don't Have You</p><br><iframe class="video2" width="524" height="315"
+                    src="https://www.youtube.com/embed/0bMM7QF5sug" title="Yo Soy Axl Rose - " SINCE I DON'T HAVE YOU""
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
         </div>
-    </section>    
+    </section>
 
     <section>
         <div><br><br><br><br><br>
             <h2 class="bandasTributo__Titulo">Banda Sweet Rose</h2><br><br><br><br>
-            <div class="bandasTributo__video3"><p>Sweet Child O' Mine</p><br><iframe width="524" height="315" src="https://www.youtube.com/embed/olNJW7mWwG4" title="sweet rose UA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="bandasTributo__video4"><p>Welcome To The Jungle</p><br><iframe width="524" height="315" src="https://www.youtube.com/embed/0F8nWQEsWpE" title="Marina Club: Sweet Rose tributo a Guns N' Roses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="bandasTributo__video3">
+                <p>Sweet Child O' Mine</p><br><iframe width="524" height="315"
+                    src="https://www.youtube.com/embed/olNJW7mWwG4" title="sweet rose UA" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="bandasTributo__video4">
+                <p>Welcome To The Jungle</p><br><iframe width="524" height="315"
+                    src="https://www.youtube.com/embed/0F8nWQEsWpE"
+                    title="Marina Club: Sweet Rose tributo a Guns N' Roses" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
         </div>
     </section>
 
-    <footer class= "footerpie"> 
-        <p><a href="https://www.instagram.com/gunsnroses/" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a></p>
-        <p><a href="https://es-la.facebook.com/gunsnroses/" target="_blank">Facebook <i class="fa-brands fa-facebook"></i></a></p>
+    <footer class="footerpie">
+        <p><a href="https://www.instagram.com/gunsnroses/" target="_blank">Instagram <i
+                    class="fa-brands fa-instagram"></i></a></p>
+        <p><a href="https://es-la.facebook.com/gunsnroses/" target="_blank">Facebook <i
+                    class="fa-brands fa-facebook"></i></a></p>
         <p><a href="https://twitter.com/gunsnroses" target="_blank">Twitter <i class="fa-brands fa-twitter"></i></a></p>
     </footer>
 
-                 
+
 </body>
+
 </html>
