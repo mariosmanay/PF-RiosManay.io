@@ -1,0 +1,23 @@
+
+// Mixin
+
+@mixin fotos ($float: left, $margin: 100px 0 0 100px) {
+    width: 200px;
+    height: 200px;
+    float: $float;
+    margin: $margin;
+    object-fit: cover;
+    border: 5px groove beige;
+    border-radius: 5px;
+    &:hover {
+        width: 200px;
+        height: 200px;
+        float: $float;
+        margin: $margin;
+        object-fit: cover;
+        border: 5px groove beige;
+        border-radius: 5px;
+        box-shadow: 0px 3px 7px 7px rgba(255, 0, 0, .5);
+        transition: .5s;
+}
+}
