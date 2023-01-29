@@ -1,0 +1,118 @@
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guns N' Roses</title>
+  <link rel="icon" href="../Fotos/guns-n-roses-inicio.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="../CSS/main.css">
+</head>
+
+<body>
+
+  <img class="fotoinicio" src="../Fotos/guns-n-roses-inicio.jpg" alt="foto-inicio">
+  <header>
+    <div class="titulo">
+      <h1 class="tituloHome"><a href="../HTML/index.html">Fan Page - Guns N' Roses</a></h1>
+    </div>
+    <nav>
+      <ul class="barraInicio">
+        <li class="barraInicio__botones"><a href="../HTML/historia.html">Historia</a></li>
+        <li class="barraInicio__botones"><a href="../HTML/novedades.html">Novedades</a></li>
+        <li class="barraInicio__botones"><a href="../HTML/multimedia.html">Bandas Tributo</a></li>
+        <li class="barraInicio__botones"><a href="../HTML/integrantes.html">Integrantes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="navegador-carousel">
+    <ul class="nav flex-column" id="navegador">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="../HTML/historia.html">Historia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../HTML/novedades.html">Novedades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../HTML/multimedia.html">Bandas Tributo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../HTML/integrantes.html">Integrantes</a>
+      </li>
+    </ul>
+
+
+
+    <div id="carousel" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Fotos/axlrose.jpg" class="d-block w-100" alt="axlrose">
+        </div>
+        <div class="carousel-item">
+          <img src="../Fotos/appetite-for-destruction.jpg" class="d-block w-100" alt="appetitefordestruction">
+        </div>
+        <div class="carousel-item">
+          <img src="../Fotos/slash.jpg" class="d-block w-100" alt="slash">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <div class="fotos-historia">
+    <aside>
+      <div>
+        <img class="slash" src="../Fotos/slash.jpg" alt="slash">
+      </div>
+    </aside>
+
+    <aside>
+      <div>
+        <img class="axlrose" src="../Fotos/axlrose.jpg" alt="Axl Rose">
+      </div>
+    </aside>
+
+    <section>
+      <div class="appetiteForDestructionLogo">
+        <img class="appetiteForDestructionLogo__imagen" src="../Fotos/appetite-for-destruction.jpg"
+          alt="Appetite-For-Destruction-Logo">
+      </div>
+    </section>
+  </div>
+
+  <footer class="footerpie">
+    <p><a href="https://www.instagram.com/gunsnroses/" target="_blank">Instagram <i
+          class="fa-brands fa-instagram"></i></a></p>
+    <p><a href="https://es-la.facebook.com/gunsnroses/" target="_blank">Facebook <i
+          class="fa-brands fa-facebook"></i></a></p>
+    <p><a href="https://twitter.com/gunsnroses" target="_blank">Twitter <i class="fa-brands fa-twitter"></i></a></p>
+  </footer>
+
+
+</body>
+
+</html>
